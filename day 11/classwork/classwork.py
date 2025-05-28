@@ -3,4 +3,8 @@
 # საშუალო არითმეტიკული:
 # რიცხვების ჯამი უნდა გაყოთ მაგ რიცხვების რაოდენობაზე
 
-
+sum = 0
+for i in range(10):
+    user_input = int(input("enetr a num; "))
+    sum += user_input
+print(sum / 10)
